@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:background="#77e464"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/textviewSua"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Cập nhật công việc"
+        android:textColor="#0400fe"
+        android:textSize="70px"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edittextSua"
+        android:layout_width="421dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp"
+        android:layout_weight="2"
+        android:ems="10"
+        android:hint="Nhập nội dung cần sửa"
+        android:inputType="textPersonName" />
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonXacNhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textviewSua"
+
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:background="#1f17fc"
+            android:text="Xác nhận"
+            android:textSize="39px" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/buttonHuySua"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+android:textSize="39px"
+
+            android:layout_alignEnd="@+id/textviewSua"
+            android:layout_centerVertical="true"
+            android:background="#e6211a"
+            android:text="Hủy" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
