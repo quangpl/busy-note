@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "872807239203",
+    "firebase_url": "https://busy-note-bdf10.firebaseio.com",
+    "project_id": "busy-note-bdf10",
+    "storage_bucket": "busy-note-bdf10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872807239203:android:e6539976bebc3f2d",
+        "android_client_info": {
+          "package_name": "com.example.plquang.busynote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872807239203-q35tua0v0noeic2q49ll1tq9121136q9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuX6El4K0z2MAFgIF0uDholIJ-QD2yGrE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
