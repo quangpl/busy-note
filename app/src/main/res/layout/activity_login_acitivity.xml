@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.8"
         android:ems="10"
-        android:hint="Gmail của bạn "
+        android:hint="Gmail  "
         android:inputType="textPersonName"
         android:paddingLeft="20px" />
 
