@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     Database database;
     ListView lvCongViec;
     ArrayList<CongViec> arrayCongViec;
+ 
     CongViecAdapter adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
