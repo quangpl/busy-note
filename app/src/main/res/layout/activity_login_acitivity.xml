@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+
+    android:background="#faf47c"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/loginimg1" />
+
+    <EditText
+
+        android:id="@+id/edtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:ems="10"
+        android:hint="Tên đăng nhập"
+        android:inputType="textPersonName"
+        android:paddingLeft="20px" />
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:ems="10"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:paddingLeft="20px" />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:weightSum="2"
+       android:orientation="horizontal"
+       android:layout_height="wrap_content">
+
+       <Button
+           android:id="@+id/btnLog"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:background="#5e9bfb"
+           android:text="Login"
+           android:textSize="41px" />
+
+       <Button
+           android:id="@+id/btnReg"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:background="#e75757"
+           android:text="Register"
+           android:textSize="41px" />
+   </LinearLayout>
+
+
+</LinearLayout>
