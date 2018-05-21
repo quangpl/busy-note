@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    tools:context=".Welcome">
+
+<ImageView
+android:id="@+id/btn"
+android:layout_width="419dp"
+android:layout_height="match_parent"
+android:scaleType="fitXY"
+android:src="@drawable/welcome"
+  />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="75dp"
+        android:layout_height="83dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="147dp"
+        app:srcCompat="@drawable/logo" />
+
+</RelativeLayout>
