@@ -22,6 +22,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     Database database;
     ListView lvCongViec;
+    public Dialog dialog_them;
     ArrayList<CongViec> arrayCongViec;
 
     CongViecAdapter adapter;
@@ -151,6 +152,7 @@ public class MainActivity extends AppCompatActivity {
         });
         dialog.show();
     }
+
     public void DialogAbout()
     {
         final Dialog dialog=new Dialog(this);

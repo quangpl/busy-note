@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:weightSum="10"
     android:orientation="vertical"
-    android:background="#77e464"
+    android:background="#ffffff"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <TextView
@@ -15,8 +15,9 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:text="Cập nhật công việc"
-        android:textColor="#0400fe"
-        android:textSize="70px"
+        android:textColor="@color/colorAccent"
+
+        android:textSize="50px"
         android:textStyle="bold" />
 
     <EditText
@@ -43,8 +44,10 @@
 
             android:layout_centerVertical="true"
             android:layout_weight="1"
-            android:background="#1f17fc"
+            android:background="#ffffff"
             android:text="Xác nhận"
+            android:textColor="@color/colorAccent"
+
             android:textSize="39px" />
 
         <Button
@@ -52,11 +55,12 @@
             android:id="@+id/buttonHuySua"
             android:layout_width="101dp"
             android:layout_height="wrap_content"
-android:textSize="39px"
+            android:textSize="39px"
+            android:textColor="@color/colorAccent"
 
             android:layout_alignEnd="@+id/textviewSua"
             android:layout_centerVertical="true"
-            android:background="#e6211a"
+            android:background="#ffffff"
             android:text="Hủy" />
 
 
