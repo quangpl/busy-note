@@ -2,31 +2,40 @@
 <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-android:background="#b5f04f"
+android:background="#fd5b61"
     xmlns:android="http://schemas.android.com/apk/res/android" ><![CDATA[
     tools:context=".Welcome">
-
-
-
     ]]>
-
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="176dp"
-        android:layout_height="162dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="77dp"
-        app:srcCompat="@drawable/sun" />
+        android:layout_marginTop="97dp"
+        app:srcCompat="@drawable/brainstorm" />
 
-    <ImageView
 
-        android:id="@+id/btn"
-        android:layout_width="77dp"
-        android:layout_height="64dp"
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="35px"
+
+        android:layout_centerHorizontal="true"
+        android:text="#Culicode" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="bold "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="151dp"
-        app:srcCompat="@drawable/arr" />
-
+        android:layout_marginBottom="190dp"
+        android:text="Easy Note"
+        android:textStyle="bold"
+        android:textColor="#ffca4f"
+        android:textSize="100px" />
 </RelativeLayout>
