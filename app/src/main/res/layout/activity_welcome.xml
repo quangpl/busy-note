@@ -2,25 +2,31 @@
 <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-
-    xmlns:android="http://schemas.android.com/apk/res/android" >
+android:background="#b5f04f"
+    xmlns:android="http://schemas.android.com/apk/res/android" ><![CDATA[
     tools:context=".Welcome">
 
-<ImageView
-android:id="@+id/btn"
-android:layout_width="419dp"
-android:layout_height="match_parent"
-android:scaleType="fitXY"
-android:src="@drawable/welcome"
-  />
+
+
+    ]]>
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="75dp"
-        android:layout_height="83dp"
+        android:id="@+id/imageView"
+        android:layout_width="176dp"
+        android:layout_height="162dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        app:srcCompat="@drawable/sun" />
+
+    <ImageView
+
+        android:id="@+id/btn"
+        android:layout_width="77dp"
+        android:layout_height="64dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="147dp"
-        app:srcCompat="@drawable/logo" />
+        android:layout_marginBottom="151dp"
+        app:srcCompat="@drawable/arr" />
 
 </RelativeLayout>
