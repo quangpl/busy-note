@@ -64,8 +64,11 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         if(item.getItemId()==R.id.menuAdd);
         DialogThem();
+        if(item.getItemId()==R.id.menuAbout)
+            DialogAbout();
         return super.onOptionsItemSelected(item);
     }
+
 
 
     public void DialogSuaCongViec(String ten, final int id)
@@ -146,6 +149,13 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        dialog.show();
+    }
+    public void DialogAbout()
+    {
+        final Dialog dialog=new Dialog(this);
+        dialog.setContentView(R.layout.dialog_about);
+
         dialog.show();
     }
 }
